@@ -5,20 +5,14 @@ import org.junit.Before;
 import org.junit.Test;
 
 import it.uniroma3.diadia.Partita;
-import it.uniroma3.diadia.ambienti.Labirinto;
-import it.uniroma3.diadia.ambienti.Stanza;
-import it.uniroma3.diadia.giocatore.Giocatore;
+
 
 public class PartitaTest {
 	private Partita partita;
-	private Labirinto università;
-	private Stanza stanzaVincente;
 
 	@Before
 	public void setUp() {
 		this.partita= new Partita();
-		this.università= new Labirinto();
-		this.stanzaVincente= università.getStanzaVincente();
 	}
 
 	@Test
