@@ -14,13 +14,13 @@ public class GiocatoreTest {
 	public void setUp() {
 		this.giocatore=new Giocatore();
 	}
-	
+
 	@Test
 	public void testGetCfu() {
 		giocatore.setCfu(0);
 		assertEquals(0, giocatore.getCfu());
 	}
-   
+
 	@Test
 	public void testCfuNonFinitiInizio() {
 		assertNotEquals(0,this.giocatore.getCfu());
